@@ -1,9 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    byebug (11.0.1)
     concurrent-ruby (1.1.5)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
@@ -30,7 +29,7 @@ GEM
     multipart-post (2.1.1)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
-    public_suffix (4.0.1)
+    public_suffix (4.0.6)
     retriable (3.1.2)
     ruby-progressbar (1.10.1)
     rubyzip (2.0.0)
@@ -61,7 +60,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
   solr_wrapper (~> 2.1)
   traject (~> 3.2)
 
